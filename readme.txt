@@ -1,6 +1,6 @@
 === Adev OTP Login ===
-Contributors: adev
-Tags: otp, sms, login, register, woocommerce, kavenegar, melipayamak, polylang
+Contributors: adsinooweb
+Tags: otp, sms, login, woocommerce, authentication
 Requires at least: 5.8
 Tested up to: 6.8
 Requires PHP: 8.0

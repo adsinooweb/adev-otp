@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name:       Adev OTP Login
- * Plugin URI:        https://adev.ir/adev-otp-login
+ * Plugin URI:        https://github.com/adsinooweb/adev-otp
  * Description:       Login and registration with one-time SMS codes. Supports Kavenegar and Melipayamak gateways, WooCommerce checkout, and Polylang.
  * Version:           1.1.0
  * Requires at least: 5.8
  * Requires PHP:      8.0
- * Author:            alikhakpourdev
+ * Author:            adsinooweb
  * Author URI:        https://adsinoo.com
  * Text Domain:       adev-otp-login
  * Domain Path:       /languages
