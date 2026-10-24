@@ -1,0 +1,544 @@
+# Copyright (C) 2026 Adev
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adev OTP Login 1.1.0\n"
+"Report-Msgid-Bugs-To: https://adev.ir\n"
+"POT-Creation-Date: 2026-10-10 15:00+0330\n"
+"PO-Revision-Date: 2026-10-10 15:00+0330\n"
+"Last-Translator: Adev\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: adev-otp-login\n"
+
+msgid "API Key"
+msgstr "API Key"
+
+msgid "Action"
+msgstr "عملیات"
+
+msgid "Active gateway"
+msgstr "درگاه فعال"
+
+msgid "An error occurred."
+msgstr "خطایی رخ داد."
+
+msgid "Approved pattern ID in the Melipayamak panel"
+msgstr "شناسه الگوی تأییدشده در پنل ملی پیامک"
+
+msgid "Button background color"
+msgstr "رنگ پس‌زمینه دکمه"
+
+msgid "Button labels are registered for Polylang String Translations (Languages → String translations → Adev OTP Login). Built-in UI strings follow the current language (fa_IR, en_US, ar)."
+msgstr "متن دکمه‌ها در ترجمه‌های رشتهٔ Polylang ثبت می‌شود (زبان‌ها ← ترجمه‌های رشته ← Adev OTP Login). رشته‌های رابط کاربری مطابق زبان جاری (fa_IR، en_US، ar) نمایش داده می‌شوند."
+
+msgid "Button text color"
+msgstr "رنگ متن دکمه"
+
+msgid "Button that opens the login / register / forgot password modal"
+msgstr "دکمهٔ باز کردن مودال ورود / ثبت‌نام / فراموشی رمز"
+
+msgid "Clear send limits"
+msgstr "پاک کردن محدودیت ارسال"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Code TTL (seconds)"
+msgstr "اعتبار کد (ثانیه)"
+
+msgid "Code expired. Please request a new one."
+msgstr "کد منقضی شده است. دوباره درخواست دهید."
+
+msgid "Copied"
+msgstr "کپی شد"
+
+msgid "Copy"
+msgstr "کپی"
+
+msgid "Copy shortcode:"
+msgstr "کپی شورتکد:"
+
+msgid "Copy the shortcode and place it in a page, post, or widget."
+msgstr "شورتکد موردنظر را کپی کرده و در برگه، نوشته یا ویجت قرار دهید."
+
+msgid "Daily limit per IP"
+msgstr "سقف روزانه هر IP"
+
+msgid "Daily limit per number"
+msgstr "سقف روزانه هر شماره"
+
+msgid "Daily send limit for this IP has been reached."
+msgstr "سقف ارسال روزانه برای این IP پر شده است."
+
+msgid "Daily send limit for this number has been reached."
+msgstr "سقف ارسال روزانه برای این شماره پر شده است."
+
+msgid "Description"
+msgstr "توضیح"
+
+msgid "Do not allow placing an order without OTP verification"
+msgstr "بدون تأیید OTP امکان ثبت سفارش نباشد"
+
+msgid "Done."
+msgstr "انجام شد."
+
+msgid "Email"
+msgstr "ایمیل"
+
+msgid "Email on registration"
+msgstr "ایمیل در ثبت‌نام"
+
+msgid "Enable"
+msgstr "فعال‌سازی"
+
+msgid "Enter your mobile number to create a new account."
+msgstr "برای ساخت حساب جدید، شماره موبایل خود را وارد کنید."
+
+msgid "Enter your mobile number to receive a verification SMS."
+msgstr "شماره موبایل خود را وارد کنید تا کد تأیید برایتان پیامک شود."
+
+msgid "Failed"
+msgstr "ناموفق"
+
+msgid "Force login / register at checkout"
+msgstr "ورود / ثبت‌نام اجباری در تسویه حساب"
+
+msgid "Forgot / reset password form with OTP"
+msgstr "فرم فراموشی / تغییر رمز عبور با OTP"
+
+msgid "Forgot password"
+msgstr "فراموشی رمز"
+
+msgid "Forms"
+msgstr "فرم‌ها"
+
+msgid "Gateway"
+msgstr "درگاه"
+
+msgid "General"
+msgstr "عمومی"
+
+msgid "Guests must log in or register with OTP before paying"
+msgstr "کاربر مهمان قبل از پرداخت باید با OTP وارد شود یا ثبت‌نام کند"
+
+msgid "Hidden anti-bot field"
+msgstr "فیلد مخفی ضد ربات"
+
+msgid "Honeypot"
+msgstr "Honeypot"
+
+msgid "Incorrect code."
+msgstr "کد واردشده نادرست است."
+
+msgid "Incorrect password."
+msgstr "رمز عبور نادرست است."
+
+msgid "Incorrect username or password."
+msgstr "نام کاربری یا رمز اشتباه است."
+
+msgid "Insufficient panel credit."
+msgstr "اعتبار پنل کافی نیست."
+
+msgid "Invalid Melipayamak response (HTTP %1$d): %2$s"
+msgstr "پاسخ نامعتبر ملی پیامک (HTTP %1$d): %2$s"
+
+msgid "Invalid action."
+msgstr "اکشن نامعتبر."
+
+msgid "Invalid data."
+msgstr "اطلاعات نامعتبر است."
+
+msgid "Invalid mobile number."
+msgstr "شماره موبایل معتبر نیست."
+
+msgid "Invalid request."
+msgstr "درخواست نامعتبر است."
+
+msgid "Kavenegar"
+msgstr "کاوه‌نگار"
+
+msgid "Kavenegar API key is not configured."
+msgstr "API Key کاوه‌نگار تنظیم نشده است."
+
+msgid "Kavenegar error"
+msgstr "خطای کاوه‌نگار"
+
+msgid "Kavenegar panel API key"
+msgstr "کلید API پنل کاوه‌نگار"
+
+msgid "Logged in successfully."
+msgstr "ورود موفق بود."
+
+msgid "Login"
+msgstr "ورود"
+
+msgid "Login / Register"
+msgstr "ورود / ثبت‌نام"
+
+msgid "Login / Register to continue checkout"
+msgstr "ورود / ثبت‌نام برای ادامه تسویه حساب"
+
+msgid "Login and register"
+msgstr "ورود و ثبت‌نام"
+
+msgid "Login button text"
+msgstr "متن دکمه ورود"
+
+msgid "Login form with one-time SMS code"
+msgstr "فرم ورود با کد یکبارمصرف پیامکی"
+
+msgid "Login mode"
+msgstr "حالت ورود"
+
+msgid "Login with mobile"
+msgstr "ورود با موبایل"
+
+msgid "Logs"
+msgstr "لاگ‌ها"
+
+msgid "Max code attempts"
+msgstr "حداکثر تلاش کد"
+
+msgid "Melipayamak"
+msgstr "ملی پیامک"
+
+msgid "Melipayamak error"
+msgstr "خطای ملی پیامک"
+
+msgid "Melipayamak panel password or API key (shown as plain text)"
+msgstr "رمز پنل یا کلید API ملی پیامک (به‌صورت متن نمایش داده می‌شود)"
+
+msgid "Melipayamak username or password is not set. Enter and save them again in the Gateway tab."
+msgstr "نام کاربری یا رمز ملی پیامک تنظیم نشده است. در تب درگاه دوباره وارد و ذخیره کنید."
+
+msgid "Message"
+msgstr "پیام"
+
+msgid "Message is empty."
+msgstr "پیام خالی است."
+
+msgid "Message text (simple send)"
+msgstr "متن پیام (ارسال ساده)"
+
+msgid "Mobile"
+msgstr "موبایل"
+
+msgid "Mobile number"
+msgstr "شماره موبایل"
+
+msgid "Mobile number verified."
+msgstr "شماره موبایل تأیید شد."
+
+msgid "Name"
+msgstr "نام"
+
+msgid "Name is required."
+msgstr "نام الزامی است."
+
+msgid "Name on registration"
+msgstr "نام در ثبت‌نام"
+
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+msgid "No account found with this number."
+msgstr "حسابی با این شماره یافت نشد."
+
+msgid "No account found with this number. Please register first."
+msgstr "حسابی با این شماره یافت نشد. ابتدا ثبت‌نام کنید."
+
+msgid "No active gateway found."
+msgstr "درگاه فعال یافت نشد."
+
+msgid "No logs yet."
+msgstr "لاگی ثبت نشده است."
+
+msgid "OTP + password"
+msgstr "OTP + رمز عبور"
+
+msgid "OTP Login"
+msgstr "ورود پیامکی"
+
+msgid "OTP Login Settings"
+msgstr "تنظیمات ورود پیامکی"
+
+msgid "OTP codes are not stored. Mobile numbers are shown masked."
+msgstr "کد OTP ذخیره نمی‌شود. شماره موبایل به‌صورت ماسک‌شده نمایش داده می‌شود."
+
+msgid "OTP length"
+msgstr "طول کد OTP"
+
+msgid "OTP login is disabled."
+msgstr "ورود پیامکی غیرفعال است."
+
+msgid "OTP only"
+msgstr "فقط OTP"
+
+msgid "On checkout, if the user is not logged in, the login/register form is shown and the page refreshes after code verification."
+msgstr "در صفحه checkout اگر کاربر لاگین نباشد، فرم ورود/ثبت‌نام نمایش داده می‌شود و پس از تأیید کد، صفحه رفرش می‌شود."
+
+msgid "Panel documents are incomplete."
+msgstr "مدارک پنل تکمیل نیست."
+
+msgid "Password"
+msgstr "رمز عبور"
+
+msgid "Password / API Key"
+msgstr "رمز عبور / API Key"
+
+msgid "Password changed successfully."
+msgstr "رمز عبور با موفقیت تغییر کرد."
+
+msgid "Password must be at least 6 characters."
+msgstr "رمز عبور باید حداقل ۶ کاراکتر باشد."
+
+msgid "Pattern code (bodyId)"
+msgstr "کد الگو (bodyId)"
+
+msgid "Pattern code (bodyId) is not configured."
+msgstr "کد الگو (bodyId) تنظیم نشده است."
+
+msgid "Pattern send"
+msgstr "ارسال الگویی"
+
+msgid "Phone blacklist"
+msgstr "لیست سیاه شماره‌ها"
+
+msgid "Please enter a valid email."
+msgstr "ایمیل معتبر وارد کنید."
+
+msgid "Please enter the verification code."
+msgstr "کد تأیید را وارد کنید."
+
+msgid "Please enter your mobile number."
+msgstr "شماره موبایل را وارد کنید."
+
+msgid "Please verify your mobile number with the SMS code."
+msgstr "لطفاً شماره موبایل را با کد پیامکی تأیید کنید."
+
+msgid "Please wait %d seconds and try again."
+msgstr "لطفاً %d ثانیه صبر کنید و دوباره تلاش کنید."
+
+msgid "Plugin is enabled"
+msgstr "افزونه فعال باشد"
+
+msgid "Polylang"
+msgstr "Polylang"
+
+msgid "Rate limits and temporary codes were cleared."
+msgstr "محدودیت‌های ارسال و کدهای موقت پاک شدند."
+
+msgid "Recipient number is invalid."
+msgstr "شماره گیرنده صحیح نیست."
+
+msgid "Redirect after login"
+msgstr "ریدایرکت بعد از ورود"
+
+msgid "Redirect after registration"
+msgstr "ریدایرکت بعد از ثبت‌نام"
+
+msgid "Register"
+msgstr "ثبت‌نام"
+
+msgid "Register button text"
+msgstr "متن دکمه ثبت‌نام"
+
+msgid "Registration completed successfully."
+msgstr "ثبت‌نام با موفقیت انجام شد."
+
+msgid "Registration form with mobile verification"
+msgstr "فرم ثبت‌نام با تأیید شماره موبایل"
+
+msgid "Replace the WordPress login page with the OTP form"
+msgstr "صفحه ورود وردپرس با فرم OTP جایگزین شود"
+
+msgid "Replace wp-login"
+msgstr "جایگزینی wp-login"
+
+msgid "Require verification"
+msgstr "اجباری بودن تأیید"
+
+msgid "Required"
+msgstr "الزامی"
+
+msgid "Required for simple send mode."
+msgstr "برای ارسال ساده الزامی است."
+
+msgid "Resend code"
+msgstr "ارسال مجدد کد"
+
+msgid "Resend cooldown (seconds)"
+msgstr "فاصله ارسال مجدد (ثانیه)"
+
+msgid "Resend in %d seconds"
+msgstr "ارسال مجدد تا %d ثانیه"
+
+msgid "SMS Gateway"
+msgstr "درگاه پیامک"
+
+msgid "SMS contains a filtered word."
+msgstr "پیامک حاوی کلمهٔ فیلترشده است."
+
+msgid "SMS gateway is not active."
+msgstr "درگاه پیامک فعال نیست."
+
+msgid "SMS send logs"
+msgstr "لاگ‌های ارسال پیامک"
+
+msgid "SMS sending failed."
+msgstr "ارسال پیامک ناموفق بود."
+
+msgid "Same modal with custom button text"
+msgstr "همان مودال با متن دلخواه برای دکمه"
+
+msgid "Save settings"
+msgstr "ذخیره تنظیمات"
+
+msgid "Save settings first, then run a test. If the daily limit is reached, click Clear send limits."
+msgstr "ابتدا تنظیمات را ذخیره کنید، سپس تست بگیرید. اگر سقف روزانه پر شده، دکمه پاک کردن محدودیت را بزنید."
+
+msgid "Security"
+msgstr "امنیت"
+
+msgid "Send code"
+msgstr "ارسال کد"
+
+msgid "Send code button text"
+msgstr "متن ارسال کد"
+
+msgid "Send mode"
+msgstr "حالت ارسال"
+
+msgid "Send test"
+msgstr "تست ارسال"
+
+msgid "Send test SMS"
+msgstr "ارسال پیامک تست"
+
+msgid "Send time has passed."
+msgstr "زمان ارسال گذشته است."
+
+msgid "Sender line is invalid."
+msgstr "خط ارسال‌کننده معتبر نیست."
+
+msgid "Sender number"
+msgstr "شماره فرستنده"
+
+msgid "Sender number is required for simple send."
+msgstr "شماره فرستنده برای ارسال ساده الزامی است."
+
+msgid "Sending failed."
+msgstr "ارسال ناموفق بود."
+
+msgid "Sending was not completed."
+msgstr "ارسال انجام نشد."
+
+msgid "Sending…"
+msgstr "در حال ارسال…"
+
+msgid "Sent successfully"
+msgstr "ارسال موفق"
+
+msgid "Sent successfully."
+msgstr "ارسال موفق بود."
+
+msgid "Separate numbers with commas or new lines."
+msgstr "شماره‌ها را با کاما یا خط جدید جدا کنید."
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Shortcode"
+msgstr "شورتکد"
+
+msgid "Shortcodes"
+msgstr "شورتکدها"
+
+msgid "Show OTP verification on the checkout page"
+msgstr "نمایش تأیید OTP در صفحه checkout"
+
+msgid "Simple send"
+msgstr "ارسال ساده"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Success"
+msgstr "موفق"
+
+msgid "Tabbed login / register / forgot form (no popup)"
+msgstr "فرم تب‌دار ورود / ثبت‌نام / فراموشی (بدون پاپ‌آپ)"
+
+msgid "Template name defined in the panel (token = OTP code)"
+msgstr "نام قالب تعریف‌شده در پنل (token = کد OTP)"
+
+msgid "Test SMS sent via %1$s to %2$s."
+msgstr "پیامک تست با %1$s به %2$s ارسال شد."
+
+msgid "This email is already registered."
+msgstr "این ایمیل قبلاً ثبت شده است."
+
+msgid "This number cannot receive messages."
+msgstr "امکان ارسال به این شماره وجود ندارد."
+
+msgid "Time"
+msgstr "زمان"
+
+msgid "To pay for your order, log in or register with your mobile number first. After verifying the code, you will return to checkout."
+msgstr "برای پرداخت سفارش، ابتدا با شماره موبایل وارد شوید یا ثبت‌نام کنید. پس از تأیید کد، به صفحه تسویه برمی‌گردید."
+
+msgid "Too many attempts."
+msgstr "تعداد تلاش بیش از حد مجاز است."
+
+msgid "Unauthorized access."
+msgstr "دسترسی غیرمجاز."
+
+msgid "Use {OTP} as a placeholder for the code."
+msgstr "از {OTP} برای جایگزینی کد استفاده کنید."
+
+msgid "User is inactive."
+msgstr "کاربر غیرفعال است."
+
+msgid "Username"
+msgstr "نام کاربری"
+
+msgid "Verification code"
+msgstr "کد تأیید"
+
+msgid "Verification code sent."
+msgstr "کد تأیید ارسال شد."
+
+msgid "Verify"
+msgstr "تأیید"
+
+msgid "Verify Lookup (template)"
+msgstr "Verify Lookup (الگو)"
+
+msgid "Verify button text"
+msgstr "متن تأیید"
+
+msgid "Verify mobile at checkout"
+msgstr "تأیید موبایل در تسویه"
+
+msgid "Verify mobile via SMS"
+msgstr "تأیید موبایل با پیامک"
+
+msgid "Verify template name"
+msgstr "نام الگوی Verify"
+
+msgid "Verify template name is not configured."
+msgstr "نام الگوی Verify تنظیم نشده است."
+
+msgid "Verifying…"
+msgstr "در حال بررسی…"
+
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+msgid "Your verification code: {OTP}"
+msgstr "کد تأیید شما: {OTP}"

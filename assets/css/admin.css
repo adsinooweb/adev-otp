@@ -1,0 +1,72 @@
+/**
+ * Admin styles for Adev OTP Login.
+ */
+
+.adev-otp-admin .nav-tab-wrapper {
+  margin-bottom: 1rem;
+}
+
+.adev-otp-admin__form {
+  max-width: 820px;
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #dcdcde;
+  border-radius: 8px;
+}
+
+.adev-otp-gateway-panel {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
+}
+
+.adev-otp-test-result {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+}
+
+.adev-otp-test-result.is-ok {
+  background: #edfaef;
+  color: #1e6b2f;
+}
+
+.adev-otp-test-result.is-err {
+  background: #fcf0f1;
+  color: #8a1f1b;
+}
+
+.adev-otp-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.adev-otp-badge--ok {
+  background: #edfaef;
+  color: #1e6b2f;
+}
+
+.adev-otp-badge--err {
+  background: #fcf0f1;
+  color: #8a1f1b;
+}
+
+.adev-otp-shortcodes-table {
+  margin-top: 1rem;
+}
+
+.adev-otp-shortcodes-table code.adev-otp-shortcode-code {
+  display: inline-block;
+  padding: 0.35rem 0.55rem;
+  background: #f0f0f1;
+  border-radius: 4px;
+  font-size: 13px;
+  user-select: all;
+}
+
+.adev-otp-copy-shortcode.is-copied {
+  background: #1a5f4a !important;
+  border-color: #1a5f4a !important;
+  color: #fff !important;
+}
