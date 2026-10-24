@@ -2,10 +2,30 @@
 /**
  * Build English source strings + fa_IR / ar PO/MO from a translation map.
  *
- * Usage: php bin/build-i18n.php
+ * Usage (CLI inside a WordPress install):
+ *   php wp-content/plugins/adev-otp-login/bin/build-i18n.php
+ *
+ * @package Adev_OTP
  */
 
 declare(strict_types=1);
+
+if ( ! defined( 'ABSPATH' ) ) {
+	if ( 'cli' !== PHP_SAPI ) {
+		exit;
+	}
+
+	$wp_load = dirname( __DIR__, 4 ) . '/wp-load.php';
+	if ( ! is_readable( $wp_load ) ) {
+		fwrite( STDERR, "WordPress bootstrap not found. Run from a WP install.\n" );
+		exit( 1 );
+	}
+	require_once $wp_load;
+}
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 $root = dirname( __DIR__ );
 
@@ -239,11 +259,12 @@ foreach ( $php_files as $path ) {
 	if ( $contents !== $original ) {
 		file_put_contents( $path, $contents );
 		++$replaced_files;
-		echo 'Updated: ' . str_replace( $root . DIRECTORY_SEPARATOR, '', $path ) . PHP_EOL;
+		$relative = str_replace( $root . DIRECTORY_SEPARATOR, '', $path );
+		echo esc_html( 'Updated: ' . $relative ) . "\n";
 	}
 }
 
-echo "PHP files updated: {$replaced_files}" . PHP_EOL;
+echo esc_html( sprintf( 'PHP files updated: %d', $replaced_files ) ) . "\n";
 
 // Build unique EN strings for POT / PO.
 $en_to_fa = array();
@@ -255,8 +276,16 @@ foreach ( $map as $fa => $trio ) {
 }
 
 $lang_dir = $root . '/languages';
-if ( ! is_dir( $lang_dir ) ) {
-	mkdir( $lang_dir, 0755, true );
+if ( ! function_exists( 'WP_Filesystem' ) ) {
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+}
+global $wp_filesystem;
+if ( ! WP_Filesystem() ) {
+	fwrite( STDERR, "Could not initialize WP_Filesystem.\n" );
+	exit( 1 );
+}
+if ( ! $wp_filesystem->is_dir( $lang_dir ) ) {
+	$wp_filesystem->mkdir( $lang_dir );
 }
 
 $pot_header = <<<'HDR'
@@ -373,7 +402,12 @@ foreach ( array_keys( $en_to_fa ) as $en ) {
 }
 write_po( $lang_dir . '/adev-otp-login-en_US.po', $en_header, $en_identity );
 
-echo 'Wrote POT + fa_IR + ar + en_US PO files (' . count( $en_to_fa ) . ' strings)' . PHP_EOL;
+echo esc_html(
+	sprintf(
+		'Wrote POT + fa_IR + ar + en_US PO files (%d strings)',
+		count( $en_to_fa )
+	)
+) . "\n";
 
 /**
  * Minimal MO writer (no plurals).
@@ -411,4 +445,5 @@ write_mo( $lang_dir . '/adev-otp-login-fa_IR.mo', $en_to_fa );
 write_mo( $lang_dir . '/adev-otp-login-ar.mo', $en_to_ar );
 write_mo( $lang_dir . '/adev-otp-login-en_US.mo', $en_identity );
 
-echo "Compiled MO files.\nDone.\n";
+echo esc_html( 'Compiled MO files.' ) . "\n";
+echo esc_html( 'Done.' ) . "\n";

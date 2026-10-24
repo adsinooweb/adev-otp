@@ -106,6 +106,7 @@ class Assets {
 				'i18n'         => array(
 					'sending'   => __( 'Sending…', 'adev-otp-login' ),
 					'verifying' => __( 'Verifying…', 'adev-otp-login' ),
+					/* translators: %d: seconds remaining until resend is allowed */
 					'resendIn'  => __( 'Resend in %d seconds', 'adev-otp-login' ),
 					'resend'    => __( 'Resend code', 'adev-otp-login' ),
 					'error'     => __( 'An error occurred.', 'adev-otp-login' ),
